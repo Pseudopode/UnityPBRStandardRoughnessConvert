@@ -46,7 +46,7 @@ By substracting the images (left minus center, left minus right and center minus
 
 ## The Code
 The code is built around two classes: **TextureConverter** and **TextureConverterGUI**.
-![PBR Roughness/Standard conversion tool code architecture](Documentation/architecture.jpg "")
+![PBR Roughness/Standard conversion tool code architecture](Documentation/architecture.png "")
 
 # Limitations
 For the moment, the conversion is only possible from Roughness to Standard. The other way, Standard to Roughness, isn't implemented yet.
