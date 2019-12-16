@@ -44,6 +44,10 @@ You can visually check that the model on the left is similar to the model on the
 By substracting the images (left minus center, left minus right and center minus right), you can have the visual proof of the effective difference between the images.
 ![PBR Roughness/Standard conversion substraction](Documentation/three_minus_sbs.jpg "")
 
+## The Code
+The code is built around two classes: **TextureConverter** and **TextureConverterGUI**.
+![PBR Roughness/Standard conversion tool code architecture](Documentation/architecture.jpg "")
+
 # Limitations
 For the moment, the conversion is only possible from Roughness to Standard. The other way, Standard to Roughness, isn't implemented yet.
 
